@@ -1,0 +1,49 @@
+#map {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #000;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(bg1.png);
+
+}
+
+h1 {
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    color: dodgerblue;
+}
+
+#resultProfile {
+    text-align: center;
+    border-radius: 5%;
+    width: fit-content;
+    align-items: center;
+    margin-left: 50%;
+    background: #fff;
+    transform: translateX(-50%);
+
+}
+
+#resultProfile img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 1px solid dodgerblue;
+}
+
+#resultProfile img:hover {
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+p .name {
+    font-size: 15px;
+    font-style: bold;
+}
